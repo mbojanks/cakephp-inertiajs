@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Inertia;
 
-use AssetMix\AssetMixPlugin;
+use ViteHelper\View\Helper\ViteScriptsHelper;
 use Cake\Core\BasePlugin;
 use Cake\Core\PluginApplicationInterface;
 use Cake\Http\MiddlewareQueue;
@@ -35,6 +35,6 @@ class InertiaPlugin extends BasePlugin
     {
         parent::bootstrap($app);
 
-        $app->addPlugin(AssetMixPlugin::class);
+        $app->addPlugin(ViteScriptsHelper::class);
     }
 }

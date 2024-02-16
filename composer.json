@@ -1,11 +1,11 @@
 {
-    "name": "ishanvyas22/cakephp-inertiajs",
+    "name": "mbojanks/cakephp-inertiajs",
     "description": "The CakePHP adapter for Inertia.js.",
     "type": "cakephp-plugin",
     "license": "MIT",
     "require": {
         "cakephp/cakephp": "^5.0",
-        "ishanvyas22/asset-mix": "^2.0"
+        "passchn/cakephp-vite": "^2.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.2",
